@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Navigation from './Navigation';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import currencyOperations from '../redux/currency/currencyOperations';
 import RatesList from './RatesList';
 
