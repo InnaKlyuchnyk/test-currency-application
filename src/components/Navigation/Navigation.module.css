@@ -1,0 +1,28 @@
+.header{
+    padding: 28px;
+        border: 1px solid #170612;
+        border-radius: 3px;
+        background-color: #fcdef4;
+}
+
+.headerNav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.activeLink{
+    color: #f7f5f7;
+    background-color: #170612;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 24px;
+}
+
+.link{
+    color: #0a000a;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 24px;
+    
+}

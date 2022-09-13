@@ -1,0 +1,25 @@
+.listItem{
+    display: flex;
+    margin-top: 30px;
+        margin-left: 30px;
+        flex-basis: calc((100% - 30px) / 6);
+        background-color: #e0dee0;
+        padding: 3px;
+        border-radius: 3px;
+}
+
+.listItem:nth-child(even){
+    background-color: #c9c5c9;
+}
+
+.rateName{
+    margin: 0;
+    margin-right: 24px;
+    font-size: 18px;
+    font-weight:  700;
+}
+
+.rateValue{
+    margin: 0;
+    font-size: 18px;
+}
